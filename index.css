@@ -1,3 +1,6 @@
 *{margin:0;padding:0;}
+ul,li{list-style:none}
 h1{text-align:center;}
 nav,.content,footer{margin:0 auto;width:1000px}
+nav ul li{float:left;width:100px;height:40px;line-height:40px;}
+nav ul li a{color:#333;display:block;}
