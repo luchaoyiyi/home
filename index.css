@@ -1,14 +1,13 @@
 *{margin:0;padding:0;}
 body{
 	font-family:sans-serif;
-    background: #eceddd;
+    background: url('http://res.issjj.com/ssjj/web/issjj_img/upload/2019/05/20/155832042095688jz9z.jpg') no-repeat center 0;
     text-align: center;
     color: #333333;
 }
 header{
     height: 200px;
     width: 900px;
-    background:no-repeat #85D0ED;
     padding-top: 0px;
     margin: 0 auto;
 }
@@ -44,7 +43,7 @@ nav ul li{
     padding-left:0px;
     padding-top:0px;
     padding-bottom:0px;
-    width:150px;
+    width:178px;
 }
 nav ul li a{
     display:block;
@@ -60,17 +59,16 @@ nav ul li a{
 }
 nav li a:hover{
     color: #000;
-    background-color:#ecf9ff;
+    background-color:#e67e1f;
 }
 nav ul li .selected{
-    color: #ecf9ff;
-    background-color:#e67e1f;
+    color: #333;
+    background-color:#ecf9ff;
 }
 .content{
     margin: 0 auto;
     width:902px;
-    background-color:#dfeef9;
-    height:310px;
+    min-height:600px;
     clear:both;
 }
 section{
@@ -78,7 +76,12 @@ section{
     width: 78%;
     margin-right: 0px;
     margin-top: 15px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.8);
+    height:520px;
+    padding:30px 0;
+}
+section h1{
+    padding-bottom:20px;
 }
 aside{
     float:left;
@@ -91,6 +94,7 @@ aside ul{
     margin-bottom:20px;
     margin-top:20px;
     margin-left:25px;
+    background-color: rgba(255,255,255,0.8);
 }
 aside li{
     text-align:left;
@@ -100,8 +104,7 @@ aside li{
     border-bottom:1px solid #eaeada;
 }
 aside ul li a{
-    display:block;
-    background-color: #ffffff;
+    display:block;    
     line-height: 1.7rem;
     text-decoration: none;
     font-size: 1rem;
@@ -110,11 +113,11 @@ aside ul li a{
     padding-top:4px;
     padding-bottom:4px;
     padding-left:18px;
-    color: #666666;
+    color: #000;
 }
 aside li a:hover{
     color: #37210c;
-    background: #f7f7f2;
+    background: #e67e1f;
 }
 aside .selected{
     color: #37210c;
@@ -124,7 +127,6 @@ footer{
     width: 902px;
     height: 40px;
     text-align: center;
-    background-color: #dfeef9;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
